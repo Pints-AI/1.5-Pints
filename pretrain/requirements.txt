@@ -1,0 +1,3 @@
+rotary_emb @ git+https://github.com/Dao-AILab/flash-attention.git@da11d1b8535c489bb97fd16a253f38217b7d6bd5#subdirectory=csrc/rotary
+xentropy_cuda_lib @ git+https://github.com/Dao-AILab/flash-attention.git@da11d1b8535c489bb97fd16a253f38217b7d6bd5#subdirectory=csrc/xentropy
+dropout_layer_norm @ git+https://github.com/Dao-AILab/flash-attention.git@da11d1b8535c489bb97fd16a253f38217b7d6bd5#subdirectory=csrc/layer_norm

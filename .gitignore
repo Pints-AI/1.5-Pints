@@ -1,0 +1,27 @@
+.DS_Store/
+__pycache__/
+.conda/
+.idea/workspace.xml
+.idea/
+.ipynb_checkpoints/
+
+consolidated_output/
+data/
+deepspeed_cache/
+flash-attention/
+lightning_logs/
+logs/
+models/
+output/
+temp/
+wandb/
+~$*
+
+# Compressed dataset filetypes 
+*.tar
+*.gz
+*.zip
+
+# EleutherAI evaluation harness
+lm-evaluation-harness/
+lm_cache/
