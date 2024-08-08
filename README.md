@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://private-user-images.githubusercontent.com/6825277/356086860-3dbd9faf-d866-40f6-bf59-bcacbd3193af.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjMwOTMyODYsIm5iZiI6MTcyMzA5Mjk4NiwicGF0aCI6Ii82ODI1Mjc3LzM1NjA4Njg2MC0zZGJkOWZhZi1kODY2LTQwZjYtYmY1OS1iY2FjYmQzMTkzYWYucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI0MDgwOCUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNDA4MDhUMDQ1NjI2WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9ZjBhZjU0NjYwMzk1MDQxZTU2OWNlOWJkNWU0ZWZlMDc5NzBjNmFlZTBmYzViMWJmMTg3ZGRiOWIwY2UyNzgzZiZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmYWN0b3JfaWQ9MCZrZXlfaWQ9MCZyZXBvX2lkPTAifQ.Rej_7H-2o41gE-RG7OGsU2ZZrO0bweuOWpNv_9w5M-w" alt="Pints.ai -- Powerful small language models in 9 days" width="300">
+</p>
+
 # 1.5-Pints
 
 This repo contains the model architecture, training scripts, and utilities of 1.5-Pints and 0.12-Pint, developed by Pints.AI.
