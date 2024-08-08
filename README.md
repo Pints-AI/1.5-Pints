@@ -3,6 +3,22 @@
 This repo contains the model architecture, training scripts, and utilities of 1.5-Pints and 0.12-Pint, developed by Pints.AI.
 By providing access to the model's codebase and architecture, this initiative seeks to facilitate the replication, experimentation, and further open-source development of Pint.
 
+Join us at Discord: https://discord.gg/eGTRzDdH
+
+ # Paper & Citation
+
+ ```latex
+ @misc{tan202415pintstechnicalreportpretraining,
+       title={1.5-Pints Technical Report: Pretraining in Days, Not Months -- Your Language Model Thrives on Quality Data}, 
+       author={Calvin Tan and Jerome Wang},
+       year={2024},
+       eprint={2408.03506},
+       archivePrefix={arXiv},
+       primaryClass={cs.CL},
+       url={https://arxiv.org/abs/2408.03506}, 
+ }
+ ```
+
 # Installation
 
 ## Recommended OS
