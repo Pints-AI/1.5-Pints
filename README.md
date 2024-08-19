@@ -111,7 +111,7 @@ python -m prepare_dataset.standard_parquet \
 --destination_path /path/to/output_dir
 ```
 
-Refer to [prepare_dataset](https://github.com/Pints-App/Pints-Train/tree/master/prepare_dataset) folder for the dataset preparation scripts.
+Refer to [prepare_dataset](https://github.com/Pints-AI/1.5-Pints/tree/main/prepare_dataset) folder for the dataset preparation scripts.
 
 `max_cores` is not required if you don't OOM on high core machines.
 
@@ -197,11 +197,11 @@ finetune/full.py \
 
 # Run Direct Preference Optimization (DPO)
 
-DPO is opted for use post-finetuning. See [here](https://github.com/Pints-App/Pints-Train/tree/master/dpo) for the execution process.
+DPO is opted for use post-finetuning. See [here](https://github.com/Pints-AI/1.5-Pints/tree/main/dpo) for the execution process.
 
 # Evaluate the model
 
-See [here](https://github.com/Pints-App/Pints-Train/tree/master/eval)
+See [here](https://github.com/Pints-AI/1.5-Pints/tree/main/eval)
 
 # Use the model
 
