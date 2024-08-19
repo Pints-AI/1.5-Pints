@@ -18,7 +18,7 @@ Therefore, considering the near-universal necessity of a padding token and poten
 
 As part of extending the vocabulary size to accommodate the padding token, we also added commonly-used chat template tokens. This makes the model versatile and ready for instruct fine-tuning \textit{out-of-the-box}. Table~\ref{table:chat-template-tokens} shows the lists of chat templates tokens added our tokenizer.
 
-| Template               | Tokens     |
+| Template               | Tokens     |                 |     |
 | ---------------------- | ---------- | --------------- | --- |
 | **OpenAI ChatML**      | `<         | im_start        | >`  |
 |                        | `<         | im_end          | >`  |
