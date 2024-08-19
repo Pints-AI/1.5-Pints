@@ -58,8 +58,8 @@ source ~/miniconda3/etc/profile.d/conda.sh
 ## Clone this repo
 
 ```bash
-git clone https://github.com/Pints-App/Pints-Train.git && \
-cd Pints-Train
+git clone https://github.com/Pints-AI/1.5-Pints.git && \
+cd 1.5-Pints
 ```
 
 ## Create conda env
