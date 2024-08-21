@@ -3,6 +3,7 @@
 </p>
 
 # 1.5-Pints
+
 <em>A recipe to pre-train models in 9 days, to become comparable AI assistants to the likes of Apple OpenELM and Microsoft Phi.</em>
 
 This repo contains the model architecture, training scripts, and utilities of 1.5-Pints and 0.12-Pint, developed by Pints.AI.
@@ -10,19 +11,19 @@ By providing access to the model's codebase and architecture, this initiative se
 
 Join us at Discord: https://discord.gg/eGTRzDdH
 
- ## Paper & Citation
+## Paper & Citation
 
- ```latex
- @misc{tan202415pintstechnicalreportpretraining,
-       title={1.5-Pints Technical Report: Pretraining in Days, Not Months -- Your Language Model Thrives on Quality Data}, 
-       author={Calvin Tan and Jerome Wang},
-       year={2024},
-       eprint={2408.03506},
-       archivePrefix={arXiv},
-       primaryClass={cs.CL},
-       url={https://arxiv.org/abs/2408.03506}, 
- }
- ```
+```latex
+@misc{tan202415pintstechnicalreportpretraining,
+      title={1.5-Pints Technical Report: Pretraining in Days, Not Months -- Your Language Model Thrives on Quality Data},
+      author={Calvin Tan and Jerome Wang},
+      year={2024},
+      eprint={2408.03506},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2408.03506},
+}
+```
 
 # Installation
 
@@ -58,7 +59,7 @@ source ~/miniconda3/etc/profile.d/conda.sh
 ## Clone this repo
 
 ```bash
-git clone https://github.com/Pints-App/Pints-Train.git && \
+git clone https://github.com/Pints-AI/1.5-Pints.git && \
 cd Pints-Train
 ```
 
@@ -111,7 +112,7 @@ python -m prepare_dataset.standard_parquet \
 --destination_path /path/to/output_dir
 ```
 
-Refer to [prepare_dataset](https://github.com/Pints-App/Pints-Train/tree/master/prepare_dataset) folder for the dataset preparation scripts.
+Refer to [prepare_dataset](https://github.com/Pints-AI/1.5-Pints/tree/main/prepare_dataset) folder for the dataset preparation scripts.
 
 `max_cores` is not required if you don't OOM on high core machines.
 
@@ -197,11 +198,11 @@ finetune/full.py \
 
 # Run Direct Preference Optimization (DPO)
 
-DPO is opted for use post-finetuning. See [here](https://github.com/Pints-App/Pints-Train/tree/master/dpo) for the execution process.
+DPO is opted for use post-finetuning. See [here](https://github.com/Pints-AI/1.5-Pints/tree/main/dpo) for the execution process.
 
 # Evaluate the model
 
-See [here](https://github.com/Pints-App/Pints-Train/tree/master/eval)
+See [here](https://github.com/Pints-AI/1.5-Pints/tree/main/eval)
 
 # Use the model
 
