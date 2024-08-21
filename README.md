@@ -1,9 +1,11 @@
 <p align="center">
-  <img src="media/pints_ai-banner.png" alt="Pints.ai -- Powerful small language models in 9 days" width="300">
+  <img src="media/pints_ai-banner.png" alt="Pints.ai" width="300">
 </p>
 
 # 1.5-Pints
-
+<p align="center">
+  <img src="media/pints-1.5.png" alt="Pints.ai -- Powerful small language models in 9 days" width="500">
+</p>
 <em>A recipe to pre-train models in 9 days, to become comparable AI assistants to the likes of Apple OpenELM and Microsoft Phi.</em>
 
 This repo contains the model architecture, training scripts, and utilities of 1.5-Pints and 0.12-Pint, developed by Pints.AI.
