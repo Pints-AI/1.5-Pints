@@ -1,28 +1,31 @@
 <p align="center">
-  <img src="media/pints_ai-banner.png" alt="Pints.ai -- Powerful small language models in 9 days" width="300">
+  <img src="media/pints_ai-banner.png" alt="Pints.ai" width="300">
 </p>
 
 # 1.5-Pints
+<p align="center">
+  <img src="media/pints-1.5.png" alt="Pints.ai -- Powerful small language models in 9 days" width="500">
+</p>
 <em>A recipe to pre-train models in 9 days, to become comparable AI assistants to the likes of Apple OpenELM and Microsoft Phi.</em>
 
 This repo contains the model architecture, training scripts, and utilities of 1.5-Pints and 0.12-Pint, developed by Pints.AI.
 By providing access to the model's codebase and architecture, this initiative seeks to facilitate the replication, experimentation, and further open-source development of Pint.
 
-Join us at Discord: https://discord.gg/eGTRzDdH
+Join us at Discord: [https://discord.com/invite/RSHk22Z29j](https://discord.com/invite/RSHk22Z29j)
 
- ## Paper & Citation
+## Paper & Citation
 
- ```latex
- @misc{tan202415pintstechnicalreportpretraining,
-       title={1.5-Pints Technical Report: Pretraining in Days, Not Months -- Your Language Model Thrives on Quality Data}, 
-       author={Calvin Tan and Jerome Wang},
-       year={2024},
-       eprint={2408.03506},
-       archivePrefix={arXiv},
-       primaryClass={cs.CL},
-       url={https://arxiv.org/abs/2408.03506}, 
- }
- ```
+```latex
+@misc{tan202415pintstechnicalreportpretraining,
+      title={1.5-Pints Technical Report: Pretraining in Days, Not Months -- Your Language Model Thrives on Quality Data},
+      author={Calvin Tan and Jerome Wang},
+      year={2024},
+      eprint={2408.03506},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2408.03506},
+}
+```
 
 # Installation
 
