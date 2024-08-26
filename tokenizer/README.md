@@ -20,24 +20,24 @@ As part of extending the vocabulary size to accommodate the padding token, we al
 
 | Template               | Tokens     |
 | ---------------------- | ---------- |
-| **OpenAI ChatML**      | `<im_start>` |
-|                        | `<im_end>`  |
+| **OpenAI ChatML**      | `<\|im_start\|>` |
+|                        | `<\|im_end\|>`  |
 |                        |            |
 | **Llama-2**            | `[INST]`   |
 |                        | `[/INST]`  |
 |                        | `<<SYS>>`  |
 |                        | `<</SYS>>` |
 |                        |            |
-| **Llama-3**            | `<begin_of_text>`  |
-|                        | `<start_header_id>`  |
-|                        | `<end_header_id>`  |
-|                        | `<eot_id>`  |
+| **Llama-3**            | `<\|begin_of_text\|>`  |
+|                        | `<\|start_header_id\|>`  |
+|                        | `<\|end_header_id\|>`  |
+|                        | `<\|eot_id\|>`  |
 |                        |            |
-| **OpenChat**           | `<end_of_turn>`  |
+| **OpenChat**           | `<\|end_of_turn\|>`  |
 |                        |            |
-| **Huggingface Zephyr** | `<user>`  |
-|                        | `<system>`  |
-|                        | `<assistant>`  |
+| **Huggingface Zephyr** | `<\|user\|>`  |
+|                        | `<\|system\|>`  |
+|                        | `<\|assistant\|>`  |
 
 ## Reserved token spaces for future customizability
 
