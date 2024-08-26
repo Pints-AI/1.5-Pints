@@ -9,7 +9,7 @@
 This repo contains the model architecture, training scripts, and utilities of 1.5-Pints and 0.12-Pint, developed by Pints.AI.
 By providing access to the model's codebase and architecture, this initiative seeks to facilitate the replication, experimentation, and further open-source development of Pint.
 
-Join us at Discord: https://discord.gg/eGTRzDdH
+Join us at Discord: [https://discord.com/invite/RSHk22Z29j](https://discord.com/invite/RSHk22Z29j)
 
 ## Paper & Citation
 
