@@ -174,7 +174,7 @@ python convert/convert_pretrained_checkpoint.py --checkpoint_dir path/to/checkpo
 ```
 
 ```bash
-lightning run model \
+lightning run \
 --accelerator=cuda \
 --devices=8 \
 finetune/full.py \
