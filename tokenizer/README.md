@@ -19,25 +19,25 @@ Therefore, considering the near-universal necessity of a padding token and poten
 As part of extending the vocabulary size to accommodate the padding token, we also added commonly-used chat template tokens. This makes the model versatile and ready for instruct fine-tuning \textit{out-of-the-box}. Table~\ref{table:chat-template-tokens} shows the lists of chat templates tokens added our tokenizer.
 
 | Template               | Tokens     |
-| ---------------------- | ---------- | --------------- | --- |
-| **OpenAI ChatML**      | `<         | im_start        | >`  |
-|                        | `<         | im_end          | >`  |
+| ---------------------- | ---------- |
+| **OpenAI ChatML**      | `<\|im_start\|>` |
+|                        | `<\|im_end\|>`  |
 |                        |            |
 | **Llama-2**            | `[INST]`   |
 |                        | `[/INST]`  |
 |                        | `<<SYS>>`  |
 |                        | `<</SYS>>` |
 |                        |            |
-| **Llama-3**            | `<         | begin_of_text   | >`  |
-|                        | `<         | start_header_id | >`  |
-|                        | `<         | end_header_id   | >`  |
-|                        | `<         | eot_id          | >`  |
+| **Llama-3**            | `<\|begin_of_text\|>`  |
+|                        | `<\|start_header_id\|>`  |
+|                        | `<\|end_header_id\|>`  |
+|                        | `<\|eot_id\|>`  |
 |                        |            |
-| **OpenChat**           | `<         | end_of_turn     | >`  |
+| **OpenChat**           | `<\|end_of_turn\|>`  |
 |                        |            |
-| **Huggingface Zephyr** | `<         | user            | >`  |
-|                        | `<         | system          | >`  |
-|                        | `<         | assistant       | >`  |
+| **Huggingface Zephyr** | `<\|user\|>`  |
+|                        | `<\|system\|>`  |
+|                        | `<\|assistant\|>`  |
 
 ## Reserved token spaces for future customizability
 

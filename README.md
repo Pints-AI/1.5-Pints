@@ -62,7 +62,7 @@ source ~/miniconda3/etc/profile.d/conda.sh
 
 ```bash
 git clone https://github.com/Pints-AI/1.5-Pints.git && \
-cd Pints-Train
+cd 1.5-Pints
 ```
 
 ## Create conda env
