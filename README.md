@@ -33,7 +33,7 @@ Join us at Discord: [https://discord.com/invite/RSHk22Z29j](https://discord.com/
 
 Typically just stick to `Ubuntu 22.04 LTS x86-64`. `Debian 12` has been tested to work as well.
 
-_GOTCHA1_: Dont use `arm64` / `aarch64`. `xformers` does not support ARM64 processors.
+_GOTCHA1_: Don't use `arm64` / `aarch64`. `xformers` does not support ARM64 processors.
 
 _GOTCHA2_: We should not install system-wide CUDA using `apt`. It is best to constrain the CUDA installation to within the conda environment, so that different projects can use different CUDA versions.
 
@@ -44,7 +44,7 @@ wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh && \
 sh Miniconda3-latest-Linux-x86_64.sh
 ```
 
-Source just to be sure `conda` cli will be available:
+Source just to be sure `conda` CLI will be available:
 
 ```bash
 source ~/.bashrc
