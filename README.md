@@ -123,7 +123,7 @@ Refer to [prepare_dataset](https://github.com/Pints-AI/1.5-Pints/tree/main/prepa
 ## Lightning
 
 ```bash
-fabric run model \
+fabric run \
 --accelerator=cuda \
 --devices=8 \
 pretrain/main.py \
